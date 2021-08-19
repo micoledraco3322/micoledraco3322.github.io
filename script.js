@@ -72,7 +72,7 @@ function randomizer() {
 	const count = sample.length
 
 	//Generate random number for generating random text/quote base on the list
-	randomInt = Math.floor((Math.random()*count)+1)
+	randomInt = Math.floor((Math.random()*count))
 	
 	//removes the "undefined" from the list
 	//avoids from displaying "undefined"
