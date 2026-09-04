@@ -1,0 +1,79 @@
+.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/006/430/145/original/technology-background-concept-circuit-board-electronic-system-futuristic-hi-tech-light-on-dark-blue-free-vector.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: lighten;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #33333300;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+.img_head img {
+  width: 300px;
+  height: 300px;
+  float: left;
+  border-radius: 50%;
+  border-color: #fffb00;
+  border-style: dotted;
+  margin: 5px;
+}
+
+.q1{
+  width: 500px;
+  margin: 50px;
+}
+
+.q1 p {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 90px;
+  color: #F2E913;
+  float: left;
+  overflow: hidden;
+  border-right: .15em solid rgba(0,255,0,1);
+  white-space: nowrap;
+  margin: 10px auto;
+  letter-spacing: .15em;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0}
+  to { width: 100%}
+}
+
+@keyframes blink-caret {
+  from, to {border-color: transparent}
+  50% { border-color: #F2E913}
+}
