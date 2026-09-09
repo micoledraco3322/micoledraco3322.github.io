@@ -140,8 +140,6 @@ body {
 }
 
 .img_head {
-  border: rgba(255, 100, 0, 1);
-  border-style: solid;
   width: minmax(300px, auto);
   display: flex;
   align-items: center;
@@ -166,8 +164,6 @@ h1 {
 }
 
 .q1{
-  border: rgba(255, 100, 0, 1);
-  border-style: solid;
   float: left;
   width: minmax(300px, auto);
 }
@@ -202,7 +198,7 @@ h1 {
 
 .gridContainer {
   display: grid;
-  border: 1px solid rgba(255, 100, 0, 1);
+  /*border: 1px solid rgba(255, 100, 0, 1);*/
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 15px;
   justify-content: center;
