@@ -151,7 +151,7 @@ body {
   height: minmax(20px, 400px);
   border-radius: 50%;
   border-color: #fffb00;
-  border-style: dotted;
+  /* border-style: dotted; */
 }
 
 h1 {
