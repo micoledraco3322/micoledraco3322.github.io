@@ -19,7 +19,7 @@ body {
   width: 100%;
   position: sticky;
   top: 0;
-  background: transparent;
+  background: rgb(245, 189, 2);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
   z-index: 999;
@@ -37,7 +37,7 @@ body {
 .navbar-logo {
   font-size: 2rem;
   font-weight: 600;
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   cursor: pointer;
 }
@@ -51,7 +51,7 @@ body {
 
 .navbar-container .navbar-menu li a {
   text-decoration: none;
-  color: #fff;
+  color: #000000;
   font-size: 1.3rem;
   font-weight: 500;
   padding: 3px 20px;
@@ -65,6 +65,7 @@ body {
   color: #162530;
   background: rgba(188, 212, 229, 0.8);
   border: 2px solid #fff;
+  border-radius: 10px;
 }
 
 .navbar-toggle {
@@ -80,7 +81,7 @@ body {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  background: #fff;
+  background: #000000;
   transition: all 0.3s ease-in-out;
 }
 
@@ -138,44 +139,100 @@ body {
   }
 }
 
+.img_head {
+  border: rgba(255, 100, 0, 1);
+  border-style: solid;
+  width: minmax(300px, auto);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .img_head img {
-  width: 300px;
-  height: 300px;
-  float: left;
+  width: minmax(20px, 400px);
+  height: minmax(20px, 400px);
   border-radius: 50%;
   border-color: #fffb00;
   border-style: dotted;
-  margin: 5px;
+}
+
+h1 {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 90px;
+  color: #F2E913;
+  margin-top: 20%;
 }
 
 .q1{
-  width: 500px;
-  margin: 50px;
+  border: rgba(255, 100, 0, 1);
+  border-style: solid;
+  float: left;
+  width: minmax(300px, auto);
 }
 
 .q1 p {
   font-family: "Jersey 25", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 90px;
-  color: #F2E913;
+  font-size: 50px;
+  color: #F5BD02;
   float: left;
   overflow: hidden;
   border-right: .15em solid rgba(0,255,0,1);
   white-space: nowrap;
-  margin: 10px auto;
+  margin: 10px, auto;
+  margin-top: 0ch;
   letter-spacing: .15em;
   animation:
-    typing 3.5s steps(40, end),
+    typing 4.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
 @keyframes typing {
   from { width: 0}
-  to { width: 100%}
+  to { width: 13ch}
 }
 
 @keyframes blink-caret {
   from, to {border-color: transparent}
-  50% { border-color: #F2E913}
+  50% { border-color: #F5BD02}
+}
+
+.gridContainer {
+  display: grid;
+  border: 1px solid rgba(255, 100, 0, 1);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.cnx {
+  width: 30%;
+  height: 30%;
+}
+
+.acn {
+  width: 30%;
+  height: 30%;
+}
+
+.smnhs {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.sti {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.slsu {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
 }
