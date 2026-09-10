@@ -147,11 +147,12 @@ body {
 }
 
 .img_head img {
-  width: minmax(20px, 400px);
-  height: minmax(20px, 400px);
+  width: 500px;
+  height: auto;
   border-radius: 50%;
   border-color: #fffb00;
-  border-style: solid
+  border-style: solid;
+  max-inline-size: 100%;
 }
 
 h1 {
@@ -216,19 +217,19 @@ h1 {
 }
 
 .smnhs {
-  width: 10%;
-  height: 10%;
+  width: 30%;
+  height: auto;
   border-radius: 50%;
 }
 
 .sti {
-  width: 10%;
-  height: 10%;
+  width: 30%;
+  height: auto;
   border-radius: 50%;
 }
 
 .slsu {
-  width: 10%;
-  height: 10%;
+  width: 30%;
+  height: auto;
   border-radius: 50%;
 }
