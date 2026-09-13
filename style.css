@@ -19,8 +19,8 @@ body {
   width: 100%;
   position: sticky;
   top: 0;
-  background: rgb(245, 189, 2);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(135deg, #FFD700, #F5BD02, #D4A017);
+  box-shadow: 0 4px 15px rgba(245, 189, 2, 0.4), 0 0 10px rgba(255,215,0,0.3);
   backdrop-filter: blur(10px);
   z-index: 999;
 }
@@ -139,6 +139,11 @@ body {
   }
 }
 
+.navName {
+  font-size: clamp(15px, 2vw, 20px);
+  margin-left: 2px;
+}
+
 .img_head {
   width: minmax(300px, auto);
   display: flex;
@@ -153,6 +158,7 @@ body {
   border-color: #fffb00;
   border-style: solid;
   max-inline-size: 100%;
+  box-shadow: 0 0 25px gold;
 }
 
 .myName {
@@ -266,7 +272,6 @@ h1 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    float: center;
   }
   .q1 p {
     float: none;
