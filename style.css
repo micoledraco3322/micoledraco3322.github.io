@@ -9,6 +9,8 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: lighten;
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
 }
 
 .navbar {
@@ -140,7 +142,7 @@ body {
 }
 
 .navName {
-  font-size: clamp(15px, 2vw, 20px);
+  font-size: clamp(20px, 2vw, 22px);
   margin-left: 2px;
 }
 
@@ -174,9 +176,9 @@ h1 {
   font-family: "Jersey 25", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 90px;
+  font-size: 80px;
   color: #F2E913;
-  margin-top: 10%;
+  margin-top: 25%;
   margin-left: 2%;
 }
 
@@ -187,31 +189,20 @@ h1 {
 
 .q1 p {
   font-family: "Jersey 25", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 50px;
-  color: #F5BD02;
-  float: left;
-  overflow: hidden;
-  border-right: .15em solid rgba(0,255,0,1);
-  white-space: nowrap;
-  margin: 10px auto;
-  margin-left: 2%;
-  margin-top: 0ch;
-  letter-spacing: .15em;
-  animation:
-    typing 4.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+  font-size: clamp(32px, 2vw, 35px);
+  margin-left: 20px;
+  color:#F5BD02;
 }
 
-@keyframes typing {
-  from { width: 0}
-  to { width: 13ch}
+#role {
+  border-right: 3px solid #F5BD02;
+  animation: blink 0.7s infinite;
 }
 
-@keyframes blink-caret {
-  from, to {border-color: transparent}
-  50% { border-color: #F5BD02}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
 .gridContainer {
@@ -258,10 +249,24 @@ h1 {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
-@media (max-width: 480px) {
+.a {
+  background: rgba(0,0,0,0.6);
+  width: auto;
+}
+
+.a p {
+  text-align: justify;
+  font-size: 20px;
+  color: #F5BD02;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 880px) {
   .myName {
     font-size: 80px;
     text-align: center;
